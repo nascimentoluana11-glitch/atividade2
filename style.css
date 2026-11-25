@@ -1,0 +1,16 @@
+.post-container {
+    max-width: 680px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.post-imagem {
+    width: 100%;          /* Adapta-se à largura do post */
+    max-height: 380px;    /* Evita que imagens muito altas ocupem a tela toda */
+    object-fit: cover;    /* Mantém a proporção sem achatar ou esticar a foto */
+    border-radius: 8px;
+    margin: 16px 0;
+    display: block;
+}
